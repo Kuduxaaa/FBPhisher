@@ -1,0 +1,97 @@
+6img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}
+* {
+	outline: none;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	color: #7b7b7b;
+}
+
+a {
+	text-decoration: none;
+	color: #3b77bc;
+}
+
+header {
+	width: 94%;
+	background-color: #fffbe2;
+	padding: 10px;
+	color: #3b77bc;
+	font-size: 16px;
+}
+
+main {
+	text-align: center;
+	margin: 20px auto;
+}
+
+main > form {
+	width: 400px;
+	margin: 10px auto;
+}
+
+main > form > input {
+	width: 92%;
+	padding: 12px;
+	background-color: #f5f6f7;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 2px;
+}
+
+
+main > form > button {
+	width: 100%;
+	background-color: #1877f2;
+	border: 1px solid #1877f2;
+	border-radius: 4px;
+	box-shadow: 0 -1px rgba(0, 0, 0, .25);
+	cursor: pointer;
+	color: #fff;
+	padding: 12px;
+	margin: 13px auto;
+	margin-left: 2px;
+}
+
+.reg-btn {
+	padding: 12px;
+	border: none;
+	border-radius: 4px;
+	background-color: #00a400;
+	color: #fff;
+	cursor: pointer;
+}
+
+.langs {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 100px auto;
+	font-size: 13px;
+}
+
+.langs> div {
+	width: 50%;
+}
+
+.langs > div > a {
+	display: inline-block;
+	width: 100%
+}
+
+.f {
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  main > form {
+    width: 90%;
+  }
+  
+  main > form > input {
+    width: 92%;
+  }
+}
