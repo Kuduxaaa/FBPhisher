@@ -1,4 +1,5 @@
 # FBPhisher
+![•](https://raw.githubusercontent.com/Kuduxaaa/FBPhisher/d11be842e3e0e9e90fc3393c3cb2f448ddfcbfce/fb-logo.svg)
 Email, Password, IP Address and User Agent Well be saved in: ```logs.json```
 
 This is simple Facebook Phisher. I am not responsible for any illegal act done using this script. Use it with your own responsibility.
